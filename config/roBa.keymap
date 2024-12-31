@@ -70,7 +70,7 @@
 &mt LCTRL Q       &kp W         &kp E         &kp R          &kp T                                              &kp Y        &kp U  &kp I      &kp O    &kp P
 &mt LEFT_GUI A    &kp S         &kp D         &kp F          &kp G        &kp LS(LG(S))         &kp MINUS       &kp H        &kp J  &lt 5 K    &kp L    &kp MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V          &kp B        &kp COLON             &kp SEMICOLON   &kp N        &kp M  &kp COMMA  &kp DOT  &kp QUESTION
-&kp ESCAPE        &kp LEFT_WIN  &kp LEFT_ALT  &kp BACKSPACE  &lt 2 SPACE  &lt 4 LANGUAGE_2      &kp LANGUAGE_1  &lt 3 ENTER                             &kp DEL
+&kp ESCAPE        &kp LEFT_WIN  &kp LEFT_ALT  &kp BACKSPACE  &lt 2 SPACE  &lt 4 LANGUAGE_2      &kp LANGUAGE_1  &lt 3 ENTER                             &kp AT_SIGN
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -96,8 +96,8 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &kp LG(LEFT)     &kp HOME        &kp UP_ARROW          &kp END          &kp LG(RIGHT)
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &kp LC(LS(TAB))  &kp LEFT_ARROW  &kp DOWN_ARROW        &kp RIGHT_ARROW  &kp LC(TAB)
+&kp LCTRL       &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &kp LG(LEFT)     &kp HOME        &kp UP_ARROW          &kp END          &kp LG(RIGHT)
+&kp LEFT_GUI    &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &kp LC(LS(TAB))  &kp LEFT_ARROW  &kp DOWN_ARROW        &kp RIGHT_ARROW  &kp LC(TAB)
 &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &kp DELETE       &kp PG_UP       &kp LG(LS(NUMBER_4))  &kp PAGE_DOWN    &trans
 &trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                                                                  &trans
             >;
