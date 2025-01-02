@@ -31,7 +31,7 @@
             key-positions = <11 10>;
         };
 
-        gui {
+        gui2 {
             bindings = <&kp LEFT_GUI>;
             key-positions = <20 21>;
         };
