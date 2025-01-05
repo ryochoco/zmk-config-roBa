@@ -26,11 +26,6 @@
             key-positions = <12 13>;
         };
 
-        gui {
-            bindings = <&kp LEFT_GUI>;
-            key-positions = <11 10>;
-        };
-
         apostrophe {
             bindings = <&kp APOS>;
             key-positions = <20 19>;
