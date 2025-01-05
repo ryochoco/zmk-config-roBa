@@ -116,10 +116,10 @@
 
         ARROW {
             bindings = <
-&trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans                                        &kp LG(LEFT_BRACKET)  &kp LG(LEFT)    &kp UP_ARROW          &kp LG(RIGHT_ARROW)  &kp LG(RIGHT_BRACKET)
-&trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS      &kp KP_MINUS      &kp LG(T)  &kp LC(LS(TAB))       &kp LEFT_ARROW  &kp DOWN_ARROW        &kp RIGHT_ARROW      &kp LC(TAB)
-&trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MULTIPLY  &kp KP_SLASH      &kp LG(W)  &kp DELETE            &kp PG_UP       &kp LG(LS(NUMBER_4))  &kp PAGE_DOWN        &kp LG(R)
-&trans  &kp KP_NUMBER_0  &kp KP_DOT       &trans           &trans           &trans            &trans     &trans                                                                           &trans
+&trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8      &kp KP_NUMBER_9  &trans                                        &kp LG(LEFT_BRACKET)  &kp LG(LEFT)    &kp UP_ARROW          &kp LG(RIGHT_ARROW)  &kp LG(RIGHT_BRACKET)
+&trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5      &kp KP_NUMBER_6  &kp KP_PLUS      &kp KP_MINUS      &kp LG(T)  &kp LC(LS(TAB))       &kp LEFT_ARROW  &kp DOWN_ARROW        &kp RIGHT_ARROW      &kp LC(TAB)
+&trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2      &kp KP_NUMBER_3  &kp KP_MULTIPLY  &kp KP_SLASH      &kp LG(W)  &kp DELETE            &kp PG_UP       &kp LG(LS(NUMBER_4))  &kp PAGE_DOWN        &kp LG(R)
+&trans  &mt LCTRL KP_N0  &mt LEFT_ALT KP_DOT  &trans           &trans           &trans            &trans     &trans                                                                           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
