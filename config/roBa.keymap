@@ -36,8 +36,8 @@
             key-positions = <20 21>;
         };
 
-        eq {
-            bindings = <&kp EQUAL>;
+        choon {
+            bindings = <&kp MINUS>;
             key-positions = <8 9>;
         };
 
@@ -48,7 +48,17 @@
 
         mute {
             bindings = <&kp C_MUTE>;
+            key-positions = <15 27>;
+        };
+
+        dock {
+            bindings = <&kp LC(UP_ARROW)>;
             key-positions = <16 28>;
+        };
+
+        shift {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <22 23>;
         };
     };
 
