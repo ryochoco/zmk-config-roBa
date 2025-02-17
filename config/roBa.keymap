@@ -85,7 +85,7 @@
 &mt LCTRL Q       &kp W      &kp E         &kp R          &kp T                                                              &kp Y        &kp U  &kp I      &kp O    &kp P
 &kp A             &kp S      &kp D         &kp F          &kp G        &trans                       &trans                   &kp H        &kp J  &kp K      &kp L    &kp MINUS
 &mt LEFT_SHIFT Z  &kp X      &kp C         &kp V          &kp B        &trans                       &trans                   &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT QUESTION
-&mo 4             &kp LCTRL  &kp LEFT_ALT  &kp BACKSPACE  &lt 2 SPACE  &mt LEFT_GUI LANGUAGE_2      &mt LEFT_GUI LANGUAGE_1  &lt 3 ENTER                             &lt 6 AT_SIGN
+&kp ESCAPE        &kp LCTRL  &kp LEFT_ALT  &kp BACKSPACE  &lt 2 SPACE  &mt LEFT_GUI LANGUAGE_2      &mt LEFT_GUI LANGUAGE_1  &lt 3 ENTER                             &lt 6 AT_SIGN
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -122,10 +122,10 @@
 
         MOUSE {
             bindings = <
-&to_layer_0 Q  &to_layer_0 W  &to_layer_0 E  &to_layer_0 R  &to_layer_0 T                      &to_layer_0 Y  &to_layer_0 U  &to_layer_0 I      &to_layer_0 O       &to_layer_0 P
-&to_layer_0 A  &to_layer_0 S  &to_layer_0 D  &to_layer_0 F  &to_layer_0 G  &trans      &trans  &to_layer_0 H  &mkp MB1       &mo 5              &mkp MB2            &to_layer_0 MINUS
-&to_layer_0 Z  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V  &to_layer_0 B  &trans      &trans  &to_layer_0 N  &to_layer_0 M  &to_layer_0 COMMA  &to_layer_0 PERIOD  &to_layer_0 QUESTION
-&trans         &trans         &trans         &trans         &trans         &mo 4       &trans  &trans                                                               &to_layer_0 AT_SIGN
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mo 5   &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
             >;
         };
 
