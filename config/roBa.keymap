@@ -136,6 +136,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
             >;
+        sensor-bindings = <&msc MOVE_X>, <&msc MOVE_Y>;
         };
 
         SCROLL {
@@ -145,6 +146,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
+        sensor-bindings = <&msc WHL_UP>, <&msc WHL_DN>;
         };
 
         layer_7 {
